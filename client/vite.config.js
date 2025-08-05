@@ -17,4 +17,12 @@ export default defineConfig({
     },
     allowedHosts: ['localhost', 'capability-museums-turkey-viewers.trycloudflare.com'],
   },
+  build: {
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        birthday: 'birthday.html',
+      },
+    },
+  },
 });

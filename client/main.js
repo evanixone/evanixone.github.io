@@ -134,10 +134,10 @@ function validateForm() {
   const username = document.getElementById("username").value;
   const password = document.getElementById("password").value;
 
-  if (username === "belle" && password === "#theWan4belle") {
+  if (username === "belle" && password === "#theWan4Belle") {
     Swal.fire({
       icon: "success",
-      title: "Login berhasil!",
+      title: "Login berjaya!",
       text: "Selamat datang ayanggg",
       showConfirmButton: false,
       timer: 1500,
